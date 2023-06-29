@@ -1,0 +1,89 @@
+
+// Define an enumeration for the possible values of each cell in the tic-tac-toe board.
+
+// Create a class for the tic-tac-toe game.
+    // Create a 2D array to represent the game board.
+    // Constructor for the TicTacToe class.
+
+    // Create a  playHumanVsHuman()
+        // Create a new scanner object to read user input from the console
+        // Ask the first human player which marker they want to use (X or O)
+        // Set the markers for each player based on the user's choice
+        // Initialize the move count to 0
+        // Loop until a player wins or the game ends in a draw
+            // Determine which player's turn it is based on the move count
+                // If it's player 1's turn, ask them to make a move
+                // Calculate the row and column of the chosen cell
+                // Check if the chosen cell is empty, and if so, mark it with the player's marker
+                    // If the chosen cell is not empty, inform the user and continue the loop
+                // If it's player 2's turn, ask them to make a move
+                // Calculate the row and column of the chosen cell
+                // Check if the chosen cell is empty, and if so, mark it with the player's marker
+                    // If the chosen cell is not empty, inform the user and continue the loop
+            // Display the updated board after each move
+            // Check if either player has won the game
+            // Check if the game has ended in a draw
+
+
+    // Create a  playHumanVsComputer()
+        // Ask the user if they want to go first
+                // It is the human's turn
+                    // Update the board with the human's move
+                    // The cell is already filled, prompt the user to choose another cell
+                // It is the computer's turn
+                    // Update the board with the computer's move
+                    // The randomly selected cell is already filled, try again
+            // Display the current state of the board
+            // Check if the game is over
+
+
+    // Create a  playHumanVsComputer()
+        // keep track of the number of moves made
+        // loop until the game is over
+            // if the move count is even, it's Computer 1's turn
+                // choose a random row
+                // choose a random column
+                // if the chosen cell is empty
+                    // mark the cell with an X
+                    // increment the move count
+                // if the chosen cell is not empty
+                    // skip this iteration of the loop and try again
+                }
+            // if the move count is odd, it's Computer 2's turn
+
+                // choose a random row
+                // choose a random column
+                // if the chosen cell is empty
+                // mark the cell with an O
+                // increment the move count
+                // if the chosen cell is not empty
+                // skip this iteration of the loop and try again
+
+
+            // display the current state of the board
+            // wait for 2 seconds
+                // print the stack trace if an exception is caught
+            // if Computer 1 has won
+            // if Computer 2 has won
+            // if the game is a draw
+
+
+    // Define the private method to display the current state of the board
+                // Print each board element separated by a space
+            // Move to a new line after printing the row
+        // Print an empty line for spacing
+    // Define the private method to check if the given marker has won
+        // Check rows
+                // If the element in the row does not match the marker, this row cannot be won by the marker
+            // If all elements in this row match the marker, the marker has won
+        // Check columns
+
+                // If the element in the column does not match the marker, this column cannot be won by the marker
+            // If all elements in this column match the marker, the marker has won
+        // Check diagonals
+        // If the marker does not win by any of the above conditions, the marker has not won
+
+
+    // Define the private method to check if the game is a draw
+                // If there is an empty space on the board, the game is not a draw
+        // If all spaces on the board are filled and there is no winner, the game is a draw

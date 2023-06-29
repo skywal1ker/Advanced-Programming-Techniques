@@ -1,0 +1,18 @@
+{
+  "frontendFolder": "/Users/ikarg/Desktop/databaseBrowser/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/ikarg/Desktop/databaseBrowser/./frontend/generated/jar-resources",
+  "staticOutput": "/Users/ikarg/Desktop/databaseBrowser/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/ikarg/Desktop/databaseBrowser/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/ikarg/Desktop/databaseBrowser/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/ikarg/Desktop/databaseBrowser/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/ikarg/Desktop/databaseBrowser/src/main/dev-bundle/config",
+  "jarResourcesFolder": "/Users/ikarg/Desktop/databaseBrowser/./frontend/generated/jar-resources",
+  "generatedFlowImportsFolder": "target/frontend",
+  "themeName": "mytodo",
+  "clientServiceWorkerSource": "/Users/ikarg/Desktop/databaseBrowser/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
